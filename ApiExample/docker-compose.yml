@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  apiexample:
+    image: apiexample
+    build:
+      context: ./ApiExample
+      dockerfile: Dockerfile
